@@ -1,11 +1,17 @@
-var v=[4, 8, 7, 6]
-//alert(v)
+var v, aux, lista
+
+v=[4, 8, 16, 32]
+alert(v)
 
 v[1]=20
-//alert(v[2])
-var lista
-lista["Zeca", 1880, "Rua Pedro Kopee", "Irati", "PR", 80.5, true]
+alert(v)
+alert(v[3])
+
+lista=["duda", 17, "ifpr", "TI3V", 4.7]
 alert(lista)
-lista.pusch("84500-305")
 
+lista.push("musica") //adiciona um item por último na lista
+alert(lista)
 
+lista.pop() //remove o último item da lista
+alert(lista)
