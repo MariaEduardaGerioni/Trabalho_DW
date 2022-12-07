@@ -1,0 +1,49 @@
+body{ /*altera propriedades gerais do conteudo html*/
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%; /*largura total do corpo do texto*/
+    margin: 0 auto; /*centraliza o conteudo*/
+    background-image: linear-gradient(to bottom,#CC99FF, #99CCFF  );
+}
+header{ /*define o cabeçalho do site*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#CCCCFF
+    ;
+    border-radius: 5px ; /*arredonda os cantos de um elemento*/
+    margin-top: 5px;
+    box-shadow: 2px 2px 2px #080808;
+
+}
+
+.logo img{/*alteração da div logo especificamente na tag img*/
+    width: 50%; /* aumenta ou diminui a imagem*/
+    padding-top: 50px; 
+}
+.navegacao{
+    overflow:hidden; /*esconde a barra de rolagem*/
+}
+.navegacao a{ /*altera os hoperlinks da classe navegacao*/
+    float:right; /*posiciona o conteudo em relação a direita*/
+    color:black; 
+    text-decoration: none;
+    padding: 10px;
+}
+.navegacao a:hover{ /*altera a cor dos links quando passa o mouse por cima*/
+    color:#E8DAEF;
+}
+.principal{
+    margin: 15px 2px 25px 2px;
+    background-color: #CCCCFF;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #080808;
+
+}
+.principal h2{
+    color: rgb(2, 2, 2);
+}
+.rodape{
+    color: black;
+    font-size: 12px;
+    text-align: center;
+}
